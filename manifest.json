@@ -1,7 +1,7 @@
 {
   "vendor": "corebizio",
   "name": "titulodinamico",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "title": "Titulo Dinamico",
   "description": "App que possibilita criar textos dinamicos no site editor",
   "builders": {
@@ -10,7 +10,10 @@
     "docs": "0.x",
     "store": "0.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.store": "2.x",
+    "corebizio.titulodinamico": "0.x"
+  },
   "registries": [
     "smartcheckout"
   ],
