@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Teste: StorefrontFunctionComponent = () => {
+const titulodinamico: StorefrontFunctionComponent = () => {
       return(
         <div>
           <h1>Teste</h1>
@@ -8,4 +8,4 @@ const Teste: StorefrontFunctionComponent = () => {
       )
 }
 
-export default Teste
+export default titulodinamico
